@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>类别搜索</title>
+  <link href="./css/public.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/head.css" />
+  <link rel="stylesheet" href="./css/foot.css" />
+  <link rel="stylesheet" href="./css/list.css" />
+</head>
+
+<body>
+  <div class="toolbar">
+    @-@include('toolbar.html')
+  </div>
+  <div class="head">
+    @-@include('head.html')
+  </div>
+  <div class="cate_section center">
+    <div class="nav_list">
+     @-@include('nav.html')
+    </div>
+  </div>
+  <div class="breadcrumb center">面包屑导航</div>
+  <div class="lists center">
+    <div class="l_left">
+      <div class="left_tree">
+        
+      </div>
+    </div>
+    <div class="l_right">
+      <div class="cate_f1">
+        <h3>
+          <p class="f1_l">商品筛选</p>
+          <p class="f1_r">重置条件</p>
+        </h3>
+        <ul>
+        </ul>
+      </div>
+      <div class="cate_f2">
+        <h3>
+          <div class="f2_l">
+            <i>排序：</i>
+            <span data-method="salenum" data-type="DESC">销量 <b class="up"></b></span>
+            <span data-method="price" data-type="DESC">价格<b class="up"></b></span>
+          </div>
+          <div class="f2_r">
+           
+          </div>
+        </h3>
+        <div class="pro_box">
+          <div class="on">
+            <div class="pro_list">
+            </div>
+            <!-- <div class="page clearfix">
+              <p>
+                <i class="unable">上一页</i><span class="cur">1</span><span>2</span><span>3</span><b>···</b><span>7</span><span>8</span><span>9</span> <i>下一页</i>
+              </p>
+            </div> -->
+          </div>
+          <div class="off hide">
+            <i></i>
+            抱歉,没有找到符合条件的商品！
+          </div>
+        </div>
+
+      </div>
+    </div>    
+  </div>
+ <div class="footer">
+  @-@include('footer.html')
+ </div>
+  <script src="./assets/jquery.min.js"></script>
+  <script src="./assets/layer/layer.js"></script>
+  <script src="./js/public.js"></script>
+  <script src="./js/list.js"></script>
+</body>
+
+</html>

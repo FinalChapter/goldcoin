@@ -1,0 +1,431 @@
+
+/* 
+首页样式
+*/
+
+
+
+.cate_middle {
+  padding: 4px;
+  position: relative;
+  width: 744px;
+  box-sizing: border-box;
+}
+.cate_right {
+  width: 266px;
+  padding-left: 2px;
+  padding-top: 4px;
+}
+.coin_price {
+  border: 1px solid #eee;
+}
+.cate_right h3 {
+  font-size: 18px;
+  line-height: 40px;
+  padding: 6px 0;
+
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.loc_price {
+  background: url(http://static.ecgci.com/images/icon_bg.png) 0 -794px no-repeat;
+  height: 187px;
+  border-bottom: 1px solid #eee;
+}
+.loc_price > li {
+  text-align: right;
+  font-size: 14px;
+  display: flex;
+  height: 29px;
+  line-height: 29px;
+  background: url(http://static.ecgci.com/images/icon_bg.png) -13px -987px
+    no-repeat;
+}
+.loc_price > li p {
+  width: 120px;
+}
+.loc_price > li:hover {
+  color: #b61d1d;
+  background-color: #e4e4e4;
+}
+.loc_price > li span {
+  width: 80px;
+  padding: 0 20px;
+}
+.coin_price h4 {
+  padding: 5px 0 10px;
+  background: url(http://static.ecgci.com/images/icon_bg.png) -221px -404px
+    no-repeat;
+  background-color: #f1f1f1;
+}
+.coin_price h4 p {
+  padding: 0 20px;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.coin_price h4 b {
+  font-size: 24px;
+  padding: 0px 4px;
+}
+.cate_card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+.card_item {
+  width: 50%;
+  padding: 9px 0;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  color: #e4b361;
+}
+.card_item:hover {
+  color: #b1191a;
+}
+.card_item:hover .card1 {
+  background-position: 0px -70px;
+}
+.card_item:hover .card2 {
+  background-position: 8px -120px;
+}
+.card_item:hover .card3 {
+  background-position: 0px 0px;
+}
+.card_item:hover .card4 {
+  background-position: 0px -192px;
+}
+.card_item span {
+  display: block;
+  width: 40px;
+  height: 43px;
+  margin: 0 auto;
+}
+.card_icon.card1 {
+  background-position: -60px -70px;
+}
+.card_icon {
+  background: url(http://static.ecgci.com/images/new_icon.png) 0 0 no-repeat;
+}
+.card_icon.card2 {
+  background-position: -64px -120px;
+}
+.card_icon.card3 {
+  background-position: -60px 0;
+}
+.card_icon.card4 {
+  background-position: -54px -192px;
+}
+/* 商品列表样式 */
+.panda_f1 {
+  background-position: 0 -324px;
+}
+.memory_f1 {
+  background-position: 0 -370px;
+}
+.foreign_f1{
+  background-position: 0 -417px;
+}
+.cultural_f1{
+  background-position: 0 -1134px;
+}
+.other_f1{
+  background-position: -48px -1134px;
+}
+
+
+
+.floor .icon {
+  width: 41px;
+  height: 38px;
+  display: block;
+}
+.floor {
+  margin-bottom: 30px;
+}
+.floor h2 {
+  height: 26px;
+  border-bottom: #b67100 1px solid;
+  margin: 35px 0 19px;
+  line-height: 26px;
+  font-size: 18px;
+  color: #b1191a;
+  display: flex;
+  justify-content: space-between;
+}
+.floor h2 div {
+  display: flex;
+}
+.floor h2 a {
+  font-size: 14px;
+  color: #b67100;
+  font-weight: normal;
+}
+.coin_list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+.coin_item {
+  width: 248px;
+  height: 320px;
+}
+.item {
+  position: relative;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.item div {
+  padding: 0px 6px;
+  box-sizing: border-box;
+  margin: 8px 0 10px;
+  overflow: hidden;
+}
+.item div img {
+  width: 100%;
+  vertical-align: top;
+}
+.item_info > h5 {
+  font-weight: normal;
+  font-size: 12px;
+  height: 34px;
+  line-height: 17px;
+  cursor: pointer;
+}
+.item_info > p {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 1px;
+  color: #b1191a;
+}
+.item .item_info {
+  padding: 3px 47px;
+  box-sizing: border-box;
+  background: url(http://static.ecgci.com/images/icon_bg.png) 0 -1048px no-repeat;
+}
+.item div div {
+  transition: 0.2s all linear;
+}
+.item:hover div div {
+  transform: translateX(-5px);
+}
+.item:hover div h5 {
+  color: #b1191a;
+}
+.coin_img {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 34px;
+  height: 38px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 7px;
+  z-index: 2;
+}
+.coin_img2 {
+  line-height: 34px;
+  background: url(http://static.ecgci.com/images/goodsStatic/noGoods.png)
+    no-repeat;
+}
+/* 信息公告样式 */
+.shop_info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.info_item h2 {
+  font-size: 18px;
+  height: 38px;
+  line-height: 38px;
+  font-weight: normal;
+}
+.info_main{
+  width: 380px;
+  display: flex;
+  padding:  10px 15px 10px 0;
+  font-size: 12px;
+  box-sizing: border-box;
+  background: #dbffff
+}
+.info_main>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 133px;
+  height: 133px;
+  border-right: #fff 1px solid
+}
+.info_img1{
+  background-position: -66px -325px;
+  width: 75px;
+  height: 51px;
+  display: block;
+}
+.tips{
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.tips>li:hover a{
+color: #b1191a;
+   
+}
+.tips>li a{
+  line-height: 24px;
+  height: 24px;
+
+}
+.tips>li p,.tips>li b{
+  padding-left: 20px;
+  line-height: 24px;
+  height: 24px;
+}
+.tips>li .phone{
+  padding-left: 20px;
+  font-size: 25px; 
+  line-height: 34px;
+  height: 34px;
+  font-weight: bold;
+}
+.call_main .tips a{
+ line-height: 25px;
+ height: 25px;
+}
+.tips>li a{
+  background: url(http://static.ecgci.com/images/icon_bg.png) -259px -348px no-repeat;
+  padding-left: 15px;
+  margin-left: 15px;
+  color: #666;
+}
+.know_main{
+  background: #efe9ff;
+  
+}
+.know_img1{
+  background-position: -66px -388px;
+}
+/* .icon_fb{
+
+} */
+.right_menu{
+  position: fixed;
+  left: 50%;
+  top: 70%;
+  transform: translateX(630px);
+  z-index: 99;
+}
+.rm_coin{
+  background: url(http://static.ecgci.com/images/indexMouse.png) 0 0 no-repeat;
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin-bottom: 4px;
+
+}
+.wx_code{
+  background-position: -115px 0 ;
+}
+.gotop{
+  display: none;
+  background-position: 0 0;
+}
+.gotop:hover{
+  background-position: 0 -65px;
+}
+.wx_code:hover{
+  background-position: -115px -65px;
+  
+}
+.wx_code:hover .wx_shop{
+  display: block;
+}
+.wx_shop{
+  position: absolute;
+  top: -40px;
+  left:-136px;
+  display: none;
+  border: 1px solid #b1191a;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.wx_shop p{
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #b1191a;
+}
+
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination-bullet{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.swiper-pagination-bullet-active{
+  background-color: #b61d1d;
+}
+
+.l_menu{
+   position: fixed;
+   bottom: 40%;
+   left: 50%;
+   transform: translateX(-675px);
+   font-size: 12px;
+   text-align: center;
+   border: 1px solid #f1f1f1;
+
+}
+.l_menu ul li{
+    line-height: 24px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.l_menu ul li.cur{
+    color: #fff;
+    padding: 5px 0;
+    background-color: #b61d1d;
+}
+.l_menu li:hover{
+   color: #fff;
+   background-color: #b1191a;
+}
+
+.coin_list .imgloading{
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QjI0RTUwMzM3RDUxMTFFNThERTVBQUI1MzZGODRDMDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QjI0RTUwMzQ3RDUxMTFFNThERTVBQUI1MzZGODRDMDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCMjRFNTAzMTdENTExMUU1OERFNUFBQjUzNkY4NEMwOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCMjRFNTAzMjdENTExMUU1OERFNUFBQjUzNkY4NEMwOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Po9mG+MAAAZ8SURBVFjDzZkLUFRV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) no-repeat center center;
+}

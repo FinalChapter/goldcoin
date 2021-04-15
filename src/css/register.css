@@ -1,0 +1,158 @@
+header > div {
+  width: 990px;
+  margin: 0 auto;
+  display: flex;
+  padding: 40px 0;
+}
+.title {
+  width: 132px;
+  height: 48px;
+  margin-top: 10px;
+}
+body {
+  background-color: #f3f3f3;
+}
+.mid {
+  width: 1000px;
+  margin: 0 auto;
+}
+.registerbox h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 20px;
+  color: #909090;
+}
+.boxTitle {
+  color: #dc3434;
+  border: 1px solid #e1e1e1;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+  background-color: #fff;
+  width: 135px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  position: relative;
+  bottom: -1px;
+}
+.registerbox h3 span {
+  line-height: 30px;
+  padding-top: 10px;
+}
+.registerbox h3 span a {
+  color: #dc3434;
+}
+.register {
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  display: flex;
+  justify-content: space-between;
+}
+.registerform div {
+  font-size: 14px;
+  color: #909090;
+  margin: 30px 0;
+  display: flex;
+}
+.registerform div input {
+  height: 38px;
+  width: 283px;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #ccc;
+  outline: none;
+  padding-left: 10px;
+}
+.registerform div label {
+  width: 128px;
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 40px;
+
+  box-sizing: border-box;
+}
+.phone {
+  padding-right: 45px;
+  background: url(https://passport.chinagoldcoin.net/images/pass_icon.png) right -31px
+    no-repeat;
+}
+.pwd,
+.repwd {
+  background: url(https://passport.chinagoldcoin.net/images/pass_icon.png) right -66px
+    no-repeat;
+  padding-right: 45px;
+}
+.registerform .shortmsg {
+  width: 86px;
+  padding-right: 10px;
+}
+.registerform .getcode {
+  border: 1px solid #d5d5d5;
+  color: #fff;
+  background-color: #e43a3d;
+  width: 110px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  margin-left: 15px;
+  font-size: 12px;
+}
+.registerform .cb {
+  font-size: 12px;
+}
+.registerform .cb_inp {
+  width: 20px;
+  height: 20px;
+}
+.registerform .cb span {
+  margin-left: 10px;
+}
+.registerform .cb span a {
+  color: #015ba7;
+}
+.registerform .sub_btn {
+  letter-spacing: 10px;
+  font-size: 18px;
+  background-color: #a0a0a0;
+  color: #fff;
+}
+.registerform .active {
+  background-color: #e64346;
+}
+.r_text {
+  width: 335px;
+  margin-top: 60px;
+}
+.r_text .txt {
+  font-size: 12px;
+  line-height: 24px;
+  color: #e64346;
+}
+.r_text .pic {
+  width: 200px;
+  height: 200px;
+  margin-left: 4px;
+  margin-top: 18px;
+  background: url(https://passport.chinagoldcoin.net/images/wx_code.png) no-repeat center center;
+}
+.r_text .des_box{
+  margin-top: 30px;
+  line-height: 20px;
+}
+.r_text .line{
+  font-size: 12px;
+}
+.registerform .error{
+ font-size: 12px;
+ color: #e43a3d;
+ margin-left: 5px;
+ text-align: left;
+}
+.registerform  input.error{
+ border:  1px solid #e43a3d;
+}
+.registerform  input.valid{
+  border: 1px solid #37b003;
+ }

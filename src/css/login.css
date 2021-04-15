@@ -1,0 +1,151 @@
+header > div {
+  width: 990px;
+  margin: 0 auto;
+  display: flex;
+  padding: 40px 0;
+}
+.title {
+  width: 132px;
+  height: 48px;
+  margin-top: 10px;
+}
+.logo img,
+.title img {
+  height: 100%;
+}
+.logo {
+  width: 290px;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+.login_main {
+  position: relative;
+  
+}
+.login_bg1{
+    height: 448px;
+    background: url(https://passport.chinagoldcoin.net/images/login_bg.jpg) center center no-repeat;
+}
+.login_bg1 img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.login_box{
+    width: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 448px;
+    z-index: 1;
+    margin: 0 auto;
+
+
+}
+.gopanda a {
+  width: 450px;
+  height: 400px;
+  position: absolute;
+  z-index: 33;
+  left: 50px;
+  top: 20px;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.login_form {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-left: 20px;
+  padding-right: 18px;
+  width: 307px;
+  height: 360px;
+  background-color: #fff;
+}
+.login_form div {
+  margin-bottom: 10px;
+}
+.login_form .user,
+.login_form .pwd {
+  display: flex;
+  height: 38px;
+  position: relative;
+  font-size: 12px;
+  line-height: 38px;
+  border: 1px solid #666;
+}
+.login_form div input {
+  border: none;
+  color: #000;
+  outline: none;
+}
+
+.login_form .error ,.login_form .error_msg{
+  height: 38px;
+  font-size: 14px;
+  line-height: 38px;
+  color: #b61d1d;
+}
+.login_form .error_msg p{
+  display: none;
+}
+.login_form label.error{
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+}
+.login_icon {
+  width: 38px;
+  height: 38px;
+  background: url(https://passport.chinagoldcoin.net/images/pass_icon.png)
+    no-repeat left 0;
+}
+.user span {
+  display: block;
+  background-position: 7px 2px;
+}
+.pwd span {
+  display: block;
+  background-position: 7px -66px;
+}
+
+.fg_key {
+  display: flex;
+  justify-content: flex-end;
+}
+.login_form .forget {
+  font-size: 12px;
+  color: #666;
+}
+.login_form .forget:hover {
+  text-decoration: underline;
+}
+.login_btn{
+    border: none;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    margin: 30px 0 15px;
+    letter-spacing: 20px; 
+    background-color: #e64346;
+}
+.login_form .zhuce{
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    padding-right: 8px;
+}
+.login_form .register{
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 4px;
+    margin-left: 4px;
+    background-color: #22ac38;
+}

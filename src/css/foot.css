@@ -1,0 +1,91 @@
+.icon_fb {
+    width: 68px;
+    height: 68px;
+  }
+  .foot_icon {
+    background: url(http://static.ecgci.com/images/icon_bg.png) 0 0 no-repeat;
+  }
+  .icon_fb1 {
+    background-position: 0 -461px;
+  }
+  .foot_bar{
+    background: #eee;
+    height: 68px;
+    padding: 16px 0;
+    border-top: #e4e4e4 1px solid;
+    border-bottom: #e4e4e4 1px solid; 
+  }
+  .foot_bar ul{  
+    padding: 0px 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+  }
+  .foot_bar ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot_bar ul li h2{
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  .foot_bar ul li div{
+    width: 68px;
+    height: 68px;
+  }
+  .foot_info{
+    display: flex;
+    font-size: 12px;
+    color: #666;
+    padding: 20px 80px;
+    box-sizing: border-box;
+    justify-content: space-around;
+  }
+  .foot_info h3{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .foot_info ul li{
+    line-height: 18px;
+  }
+  .foot_info ul li a{
+    color: #666;
+  }
+  .foot_info ul li a:hover{
+    color: #b1191a;
+  }
+  .icon_fb5 {
+    background-position: -155px -455px;
+  }
+  
+  .web_info{
+    margin-top: 10px;
+    padding: 30px 0;
+    border-top: 1px solid #eee;
+  }
+  .web_info > p {
+    display: flex;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+    justify-content: center;
+  }
+  .web_info > p:nth-child(2) a{
+    color: #666;
+    padding: 0 4px; 
+  }
+  .web_info > p:nth-child(2) a:hover{
+    text-decoration: underline;
+    color: #b1191a;
+  }
+  
+  .icon_a {
+    width: 112px;
+    height: 41px;
+    margin: 0 15px;
+  }
+  .web_img{
+    margin-top: 10px;
+  }
+ 

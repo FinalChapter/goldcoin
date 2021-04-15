@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>购物车</title>
+  <link href="./css/public.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/head.css">
+  <link rel="stylesheet" href="./css/foot.css">
+  <link rel="stylesheet" href="./css/cart.css">
+</head>
+
+<body>
+  <div class="toolbar">
+    @-@include('toolbar.html')
+  </div>
+  <header class="center">
+    <div class="logo">
+      <a href="./index.html">
+        <img src="http://static.ecgci.com/images/logo.png" alt="" />
+      </a>
+    </div>
+    <div class="cart_step step1">
+      <ul>
+        <li class="cur">1.我的购物车</li>
+        <li>2.填写核对订单信息</li>
+        <li>3.成功提交订单</li>
+      </ul>
+    </div>
+  </header>
+  <!-- 空购物车 -->
+  <div class="cart_null center ">
+    <div class="n_msg">
+      <img src="http://static.ecgci.com/images/cart_icon.jpg" alt="">
+      <ul>
+        <h1>购物车暂时没有商品！</h1>
+        <p>购物车内暂时没有商品，您可以去首页挑选喜欢的商品</p>
+        <a href="./index.html">进入商城首页</a>
+      </ul>
+    </div>
+  </div>
+  <!-- 有商品 -->
+  <div class="has_goods ">
+    <div class="my_cart center ">
+      我的购物车
+    </div>
+    <div class="cart_list center ">
+    </div>
+  </div>
+  <div class="footer">
+    @-@include('footer.html')
+  </div>
+  <script src="./assets/jquery.min.js"></script>
+  <script src="./assets/layer/layer.js"></script>
+  <script src="./js/public.js"></script>
+  <script src="./js/cart.js"></script>
+</body>
+
+</html>
